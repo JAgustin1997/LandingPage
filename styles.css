@@ -1,9 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto:wght@400;500&family=Sedgwick+Ave+Display&display=swap");
+@font-face {
+  font-family: "Roboto";
+  src: url("Fuentes/Roboto/Roboto-SemiBold.ttf") ;
+}
+@font-face {
+  font-family: "Sedgwick Ave Display";
+  src: url("Fuentes/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf") ;
+}
+@font-face {
+  font-family: "Alkatra";
+  src: url("Fuentes/Alkatra/Alkatra-SemiBold.ttf") ;
+}
 
 :root {
   --primary-color: #0ea5e9;
   --primary-color-dark: #0284c7;
-  --text-light: #f3f4f6;
+  --text-light: #ffffff;
 }
 
 * {

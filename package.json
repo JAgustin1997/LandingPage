@@ -1,0 +1,28 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "Versión modificada. El primer paso fue ingresar a GitHub y crear el repositorio público con el nombre “LandingPage”, después agregué los archivos de la plantilla que utilicé sin modificar y envié el primer commit como “First commit”. En branches creé una nueva rama con el nombre “first_version” para la versión modificada final, y después hice un commit con todas las modificaciones.  Para mostrar la página fui a settings y en Pages usé la opción “Deploy from branch” y seleccione “first-version” para poder mostrar la página.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource/alkatra": "^5.2.8",
+    "@fontsource/roboto": "^5.2.8",
+    "@fontsource/sedgwick-ave-display": "^5.2.8",
+    "bootstrap": "^5.3.8",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jquery": "^3.7.1",
+    "minimist": "^1.2.8",
+    "prettier": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
